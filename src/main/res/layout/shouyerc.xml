@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shouye_rc"></android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_marginTop="@dimen/s10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p30">
+
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="京东"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快报"
+            android:layout_marginLeft="6dp"
+            android:background="@color/red"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#989898"
+            android:text=" : "/>
+
+        <com.example.imitatejingdong.view.NoticeView
+            android:id="@+id/notice_view"
+            android:layout_width="@dimen/s0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_marginTop="@dimen/s5"
+            android:layout_width="@dimen/s3"
+            android:layout_height="@dimen/p20"
+            android:layout_marginRight="8dp"
+            android:alpha="0.3"
+            android:background="#666666"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="更多"
+            android:textColor="#666666"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp"></View>
+
+</LinearLayout>

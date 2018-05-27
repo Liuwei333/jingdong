@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff00"
+    >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:text="购物车"
+        android:autoLink="all"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20px"
+        android:src="@drawable/order_pp"
+        android:layout_toRightOf="@+id/text"
+        android:id="@+id/maPa"
+        android:layout_marginTop="15px"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:src="@drawable/my_msg_hei"
+        android:id="@+id/xiaoxi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10px"
+        />
+
+</RelativeLayout>

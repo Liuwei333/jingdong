@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_nam">The defense will pass</string>
+    <string name="umeng_sharebutton_custom">自定义分享按钮</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="fukuamn">夜间模式</string>
+    <string name="shouhuo">待收货</string>
+    <string name="pingjia">待评价</string>
+    <string name="tuihuan">退换/售货</string>
+    <string name="dingdan">我的订单</string>
+    <string name="jingdou">京豆</string>
+    <string name="youhuiquan">优惠券</string>
+    <string name="baitiao">白条</string>
+    <string name="lipinka">礼品卡</string>
+    <string name="qianbao">我的钱包</string>
+    <string name="shangping">商品关注</string>
+    <string name="dianpu">店铺关注</string>
+    <string name="neirong">内容收藏</string>
+    <string name="liulan">浏览记录</string>
+    <string name="huodong">我的活动</string>
+    <string name="shequ">社区</string>
+    <string name="kehu">客户服务</string>
+
+
+</resources>

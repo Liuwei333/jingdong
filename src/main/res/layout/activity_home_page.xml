@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.imitatejingdong.view.HomePageActivity">
+    <!--使用FrameLayout当做盛放Fragment对象的容器-->
+
+    <FrameLayout
+
+        android:id="@+id/framelayout"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="0.9"
+
+        />
+
+    <!--中间为一条分割线-->
+
+    <View
+
+        android:background="#DEDEDE"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/group"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/selector"
+            android:id="@+id/but01"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/selector1"
+            android:id="@+id/but02"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/selector2"
+            android:id="@+id/but03"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/selector3"
+            android:id="@+id/but04"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/selector4"
+            android:id="@+id/but05"
+            />
+    </RadioGroup>
+</LinearLayout>

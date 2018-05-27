@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stx.xhb.xbanner.XBanner
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        app:AutoPlayTime="2000"
+        android:id="@+id/myxbanner"></com.stx.xhb.xbanner.XBanner>
+
+    <!--<com.youth.banner.Banner
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:AutoPlayTime="2000"
+        android:id="@+id/myxbanner"></com.youth.banner.Banner>-->
+</LinearLayout>

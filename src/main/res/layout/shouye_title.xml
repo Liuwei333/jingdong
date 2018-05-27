@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            android:layout_width="@dimen/m60px"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@color/bai"
+                android:src="@drawable/sao_kind"
+                android:layout_width="24px"
+                android:id="@+id/f1_erweima"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/search_layout"
+                android:id="@+id/sao"
+                android:textColor="@color/hei"
+                android:text="扫啊扫"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="3px"
+            android:layout_marginRight="3px"
+            android:background="@drawable/home_title_bar_search_corner_bg"
+            android:gravity="center_vertical"
+            android:id="@+id/lin"
+            android:layout_weight="1"
+            android:layout_width="@dimen/s0"
+            android:layout_height="@dimen/s40">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/s5"
+                android:src="@drawable/order_find"
+                android:layout_width="@dimen/p20"
+                android:layout_height="@dimen/p20" />
+
+            <TextView
+                android:id="@+id/sousuo"
+                android:layout_marginLeft="@dimen/s5"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="@dimen/s0"
+                android:layout_height="@dimen/p30"
+                android:textSize="@dimen/search_layout"
+                android:text="运动户外超级品牌类日"
+                />
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:src="@drawable/root"
+                android:layout_width="@dimen/p20"
+                android:layout_height="@dimen/p20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="@dimen/s50"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fl_night"
+                android:background="@color/bai"
+                android:src="@drawable/order_msg"
+                android:layout_width="@dimen/p20"
+                android:layout_height="@dimen/p20" />
+            <TextView
+                android:textColor="@color/hei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/search_layout"
+                android:id="@+id/news"
+                android:text="地图"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,179 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imitatejingdong.view.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/lin_top"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/cha"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/cha"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="京东登录"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/loign_top"
+        android:layout_below="@+id/lin_top"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:textColorHint="#999"
+                android:layout_width="200dp"
+                android:hint="用户名/邮箱/手机号"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="0.5dp"
+            android:background="#999"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_below="@+id/loign_top"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/pwd_top"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:textColorHint="#999"
+                android:layout_width="200dp"
+                android:hint="请输入密码"
+                android:id="@+id/pass"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="0.5dp"
+            android:background="#999"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_below="@+id/pwd_top"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/deng"
+        android:gravity="center"
+        android:background="#79999999"
+        android:text="@string/login"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/deng"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rel"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:id="@+id/phone"
+            android:text="手机快速注册"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:textSize="15sp"
+            android:text="网站注册"
+            android:id="@+id/register"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/qq"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mqq"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录即代表您已同意京东隐私政策"/>
+    </LinearLayout>
+
+</RelativeLayout>
